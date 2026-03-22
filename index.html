@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web Design</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <section class="logo_text">LOGO</section>
+      <section>
+        <img src="images/logo.png" class="logo" alt="logo" />
+      </section>
+      <button>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <section>
+        <ul class="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#vehicles">Vehicles</a></li>
+        </ul>
+      </section>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <section class="hero_content">
+        <h2>Seamless Rides,</h2>
+        <h2>Professional Drivers.</h2>
+        <h2>Hassle-Free Booking</h2>
+        <button class="book_btn">Book Now</button>
+      </section>
+    </section>
+    <!-- AboutUs -->
+    <section class="about_us">
+      <div class="about_us--container">
+        <div class="about_us--image">
+          <img src="images/AboutUs.jpg" class="about_us--img" alt="about" />
+        </div>
+        <div class="about_us--content">
+          <h2 class="about_us--title">About Us</h2>
+
+          <p class="about_us--text">
+            We provide safe, reliable, and hassle-free taxi booking services.
+            Our goal is to make every journey seamless and on time.
+          </p>
+
+          <div class="about_us--cards">
+            <div class="about_card">
+              <i class="fa-solid fa-award"></i>
+              <h4>Excellence</h4>
+              <p>
+                We deliver top-quality taxi services with professional drivers
+                and well-maintained vehicles.
+              </p>
+            </div>
+
+            <div class="about_card">
+              <i class="fa-solid fa-shield"></i>
+              <h4>Safety First</h4>
+              <p>
+                Your safety is our priority with trusted drivers and secure
+                travel for every ride.
+              </p>
+            </div>
+
+            <div class="about_card">
+              <i class="fa-solid fa-clock"></i>
+              <h4>Reliability</h4>
+              <p>
+                Count on us for punctual pickups and dependable transportation
+                anytime.
+              </p>
+            </div>
+
+            <div class="about_card">
+              <i class="fa-solid fa-heart"></i>
+              <h4>Customer Care</h4>
+              <p>
+                We focus on friendly service and ensuring a comfortable journey
+                for every customer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Services -->
+    <section class="our_services">
+      <h2 class="our_services--title">Our Services</h2>
+      <div class="services_grid">
+        <div class="services_card">
+          <img
+            class="services_card--img"
+            src="images/Airport PickUp.jpg"
+            alt="Airport Pickup"
+          />
+          <div class="services_card--body">
+            <h4 class="services_card--title">Airport Pickup & Drop</h4>
+            <ul class="services_card--text">
+              <li>Reliable service for seamless airport transfers.</li>
+              <li>Punctual pickups to ensure you never miss a flight.</li>
+              <li>Clean, air-conditioned vehicles for comfortable rides</li>
+              <li>
+                Trained chauffeurs prioritizing safety and professionalism.
+              </li>
+              <li>Round-the-clock availability for any travel schedule.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="services_card">
+          <img
+            class="services_card--img"
+            src="images/City travel.jpg"
+            alt="City Travel"
+          />
+          <div class="services_card--body">
+            <h4 class="services_card--title">Short Drives in City</h4>
+            <ul class="services_card--text">
+              <li>Efficient city travel for quick trips.</li>
+              <li>Guaranteed short drives for timely arrivals.</li>
+              <li>Clean, air-conditioned vehicles for comfortable rides</li>
+              <li>Experienced drivers ensuring safe journeys.</li>
+              <li>Available all night for your convenience.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="services_card">
+          <img
+            class="services_card--img"
+            src="images/Long travel.jpg"
+            alt="Long Travel"
+          />
+          <div class="services_card--body">
+            <h4 class="services_card--title">Long Drives Across The State</h4>
+            <ul class="services_card--text">
+              <li>
+                Reliable service for extended trips and long-distance travel.
+              </li>
+              <li>
+                Long-distance airport pickups and drops with guaranteed comfort.
+              </li>
+              <li>Clean, air-conditioned vehicles for the entire journey.</li>
+              <li>Experienced drivers ensuring safe and smooth rides.</li>
+              <li>Available 24/7 to suit your travel schedule.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="services_card">
+          <img
+            class="services_card--img"
+            src="images/Transparent Service.jpg"
+            alt="Transparent Service"
+          />
+          <div class="services_card--body">
+            <h4 class="services_card--title">Transparent Service Charges</h4>
+            <ul class="services_card--text">
+              <li>Clear pricing for worry-free travel.</li>
+              <li>Guaranteed flat rates with no hidden fees.</li>
+              <li>Clean, air-conditioned vehicles throughout your journey.</li>
+              <li>Reliable service available round the clock.</li>
+              <li>Professional drivers ensuring safe and punctual rides.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+   <section class="vehicles">
+    <div class="vehicles__slider-wrapper">
+      <button class="vehicles__arrow vehicles__arrow--left" id="prev-btn" aria-label="Previous">&lt;</button>
+      <div class="vehicles__slider-track" id="vehicles-slider">
+        <div class="vehicles__card">
+          <img class="vehicles__img vehicles__img--card" src="images/Desire.jpg" alt="Swift Desire"/>
+          <div class="vehicles__card__body">
+            <h4 class="vehicles__card__title">Swift Desire</h4>
+            <p class="vehicles__card__text">Spacious cabin with rear AC vents for passenger comfort during long rides.</p>
+          </div>
+        </div>
+        <div class="vehicles__card">
+          <img class="vehicles__img vehicles__img--card" src="images/Ertiga.jpg" alt="Ertiga"/>
+          <div class="vehicles__card__body">
+            <h4 class="vehicles__card__title">Ertiga</h4>
+            <p class="vehicles__card__text">Rear AC vents, spacious second/third rows, and 209L boot space handle families or luggage effectively.</p>
+          </div>
+        </div>
+        <div class="vehicles__card">
+          <img class="vehicles__img vehicles__img--card" src="images/Fortuner.jpg" alt="Fortuner"/>
+          <div class="vehicles__card__body">
+            <h4 class="vehicles__card__title">Fortuner</h4>
+            <p class="vehicles__card__text">Fortuner offers 7 seats with ample second-row space, dual-zone AC, and 296L boot expandable by folding seats—ideal for luggage-heavy trips.</p>
+          </div>
+        </div>
+        <div class="vehicles__card">
+          <img class="vehicles__img vehicles__img--card" src="images/Innova.jpg" alt="Innova"/>
+          <div class="vehicles__card__body">
+            <h4 class="vehicles__card__title">Innova</h4>
+            <p class="vehicles__card__text">7/8-seater flexibility with captain seats, dual-zone AC with rear vents, and 300L boot (expandable) suit families and luggage loads.</p>
+          </div>
+        </div>
+        <div class="vehicles__card">
+          <img class="vehicles__img vehicles__img--card" src="images/Jeep.jpg" alt="Jeep"/>
+          <div class="vehicles__card__body">
+            <h4 class="vehicles__card__title">Jeep</h4>
+            <p class="vehicles__card__text">5-seater layout with 438L boot space, dual-zone AC, rear vents, ventilated seats, and powered front seats ensure passenger comfort on premium runs.</p>
+          </div>
+        </div>
+      </div>
+      <button class="vehicles__arrow vehicles__arrow--right" id="next-btn" aria-label="Next">&gt;</button>
+    </div>
+  </section>
+    <section class="hero_bottom">
+      <div class="hero_container--bottom">
+        <div class="hero_image">
+          <img src="images/Bottom-hero.jpg" class="bottom_hero" />
+        </div>
+
+        <div class="hero_content--bottom">
+          <h1>We helping you to find your location</h1>
+
+          <p>
+            Guaranteed Punctual Pickups And Drops.<br />
+            Value for the rate<br />
+            Zero cancellation
+          </p>
+        </div>
+      </div>
+    </section>
+ <div class="footer_wrapper">
+    <footer>
+      <div class="footer_top">
+        <div>
+          <div class="footer_left--title">NAASH</div>
+          <div class="footer_left--sub">TRAVELS</div>
+
+          <p class="footer_description">
+            we provide safe, reliable, and hassle-free taxi booking services.
+            our goal is to make every journey seamless and on time.
+          </p>
+
+          <div class="footer_social">
+            <a href="#" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer_right--title">Get in touch</div>
+          <p class="footer_right--text">
+            For bookings and inquiries, contact us today!
+          </p>
+
+          <div class="contact_item">
+            <span class="contact_icon">📞</span>
+            <span>+91 76*256@7281</span>
+          </div>
+          <div class="contact_item">
+            <span class="contact_icon">✉️</span>
+            <span>sgTRV@gmail.com</span>
+          </div>
+          <div class="contact_item">
+            <span class="contact_icon">📍</span>
+            <span>Thrissur, Kerala, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        © 2025 TravelEase. All rights reserved.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
